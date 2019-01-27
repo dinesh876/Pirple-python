@@ -4,7 +4,7 @@ Author         : Dinesh
 published Date : 26-01-2019
 '''
 
-#check whether given number is prime or not if number is prime prime return true otherwise false
+#check whether given number is prime or not 
 def isPrime(num,i=2):
     if num<=2:
         return True if num==2 else False
@@ -16,7 +16,7 @@ def isPrime(num,i=2):
 
 
 for num in range(1,101):
-    if isPrime(num)==True:    #prime or not
+    if isPrime(num)==True:    
            print('Prime')
     else:
             #the number is divible by both 3 and 5
